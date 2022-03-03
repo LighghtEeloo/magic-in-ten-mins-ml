@@ -69,4 +69,8 @@ let rec to_string cl n =
 > 
 > 其行为也和`CoList`一致。有兴趣的读者可以查阅测试。
 > 
-> 参考： [OCaml官方文档](https://ocaml.org/manual/letrecvalues.html)
+> 参考：
+> 
+> [OCaml官方文档](https://ocaml.org/manual/letrecvalues.html)
+> 
+> [Haskell wiki](https://wiki.haskell.org/Tying_the_Knot)
