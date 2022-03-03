@@ -1,0 +1,10 @@
+(executable
+ (name magic)
+ ; (public_name magic_in_ten_mins_ml)
+ (libraries ))
+
+(include_subdirs unqualified)
+
+(env
+  (_ 
+    (flags (:standard -warn-error -A))))
