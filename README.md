@@ -34,13 +34,13 @@ $ dune exec ./magic.exe
 
 [偏易|余代数数据类型(Coalgebraic Data Type)[OCaml 基础，ADT]](TypeSystem/CoData.md)
 
-    [偏易|单位半群(Monoid)[OCaml 基础]](TypeSystem/Monoid.md)
+[偏易|单位半群(Monoid)[OCaml 基础]](TypeSystem/Monoid.md)
 
 [较难|高阶类型(Higher Kinded Type)[OCaml 基础]](TypeSystem/HKT.md)
 
-    [中等|单子(Monad)[OCaml 基础，HKT]](TypeSystem/Monad.md)
+[中等|单子(Monad)[OCaml 基础，HKT]](TypeSystem/Monad.md)
 
-    [较难|状态单子(State Monad)[OCaml 基础，HKT，Monad]](TypeSystem/StateMonad.md)
+[较难|状态单子(State Monad)[OCaml 基础，HKT，Monad]](TypeSystem/StateMonad.md)
 
     [中等|简单类型 λ 演算(Simply-Typed Lambda Calculus)[Java 基础，ADT，λ 演算]](doc/STLC.md)
 
