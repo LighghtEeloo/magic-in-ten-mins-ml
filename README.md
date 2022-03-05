@@ -54,19 +54,19 @@ $ dune exec ./magic.exe
 
 ## 计算理论
 
-    [较难|λ演算(Lambda Calculus)[Java基础，ADT]](doc/Lambda.md)
+    [较难|λ演算(Lambda Calculus)[Java基础，ADT]](TheoryOfComputation/Lambda.md)
 
-    [偏易|求值策略(Evaluation Strategy)[Java基础，λ演算]](doc/EvalStrategy.md)
+    [偏易|求值策略(Evaluation Strategy)[Java基础，λ演算]](TheoryOfComputation/EvalStrategy.md)
 
-    [较难|丘奇编码(Church Encoding)[λ 演算]](src/ChurchE.md)
+    [较难|丘奇编码(Church Encoding)[λ 演算]](TheoryOfComputation/ChurchE.md)
 
-    [很难|斯科特编码(Scott Encoding)[构造演算，ADT，μ](doc/ScottE.md)
+[很难|斯科特编码(Scott Encoding)[OCaml基础，构造演算，ADT，μ]](TheoryOfComputation/ScottE.md)
 
-    [中等|Y 组合子(Y Combinator)[Java 基础，λ 演算，λ 演算编码]](doc/YCombinator.md)
+    [中等|Y 组合子(Y Combinator)[Java 基础，λ 演算，λ 演算编码]](TheoryOfComputation/YCombinator.md)
 
-    [中等|μ(Mu)[Java 基础，构造演算， Y 组合子]](doc/Mu.md)
+    [中等|μ(Mu)[Java 基础，构造演算， Y 组合子]](TheoryOfComputation/Mu.md)
 
-    [中等|向量和有限集(Vector & FinSet)[构造演算， ADT ，依赖类型模式匹配]](doc/VecFin.md)
+    [中等|向量和有限集(Vector & FinSet)[构造演算， ADT ，依赖类型模式匹配]](TheoryOfComputation/VecFin.md)
 
 ## 形式化验证
 
