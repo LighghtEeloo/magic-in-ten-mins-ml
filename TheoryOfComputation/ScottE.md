@@ -153,3 +153,5 @@ map = λ A: *. λ B: *. λ f: A → B. μ m: List A → List B.
 > 注：
 > 
 > 坚持到这里的读者，恭喜你重新（至少在概念上）发明了 OCaml，或者说 meta language。
+> 
+> ……其实准确说是体验了一番 HM 类型系统（[Hindley–Milner type system](https://en.wikipedia.org/wiki/Hindley%E2%80%93Milner_type_system)）。
