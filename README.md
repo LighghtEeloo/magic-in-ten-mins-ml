@@ -1,14 +1,14 @@
 # 十分钟魔法练习 (OCaml)
 
-[十分钟魔法练习-光吟](https://github.com/LighghtEeloo/magic-in-ten-mins-ml)
+[十分钟魔法练习 - 光吟](https://github.com/LighghtEeloo/magic-in-ten-mins-ml)
 
-改写自 [十分钟魔法练习-玩火](https://github.com/goldimax/magic-in-ten-mins)
+改写自 [十分钟魔法练习 - 玩火](https://github.com/goldimax/magic-in-ten-mins)
 原版为 Java 实现
 
 另有
 [Rust 版 - 光量子](https://github.com/PhotonQuantum/magic-in-ten-mins-rs) |
-[C++版-图斯卡蓝瑟](https://github.com/tusikalanse/magic-in-ten-mins-cpp) |
-[C#版-CWKSC](https://github.com/CWKSC/magic-in-ten-mins-csharp) |
+[C++版 - 图斯卡蓝瑟](https://github.com/tusikalanse/magic-in-ten-mins-cpp) |
+[C#版 - CWKSC](https://github.com/CWKSC/magic-in-ten-mins-csharp) |
 [Lua 版 - Ofey Chan](https://github.com/ofey404/magic-in-ten-mins-lua)
 
 抽象与组合
@@ -74,15 +74,15 @@ $ dune exec ./magic.exe
 
 ## 编程范式
 
-    [简单|表驱动编程(Table-Driven Programming)[简单 OCaml 基础]](src/TableDriven.md)
+[简单|表驱动编程(Table-Driven Programming)[简单 OCaml 基础]](Paradigms/TableDriven.md)
 
-    [简单|续延(Continuation)[简单 OCaml 基础]](src/Continuation.md)
+    [简单|续延(Continuation)[简单 OCaml 基础]](Paradigms/Continuation.md)
 
-    [中等|代数作用(Algebraic Effect)[简单 OCaml 基础，续延]](src/Algeff.md)
+    [中等|代数作用(Algebraic Effect)[简单 OCaml 基础，续延]](Paradigms/Algeff.md)
 
-    [中等|依赖注入(Dependency Injection)[Java基础，Monad，代数作用]](doc/DepsInj.md)
+    [中等|依赖注入(Dependency Injection)[Java基础，Monad，代数作用]](Paradigms/DepsInj.md)
 
-    [中等|提升(Lifting)[OCaml 基础，HKT，Monad]](src/Lifting.md)
+    [中等|提升(Lifting)[OCaml 基础，HKT，Monad]](Paradigms/Lifting.md)
 
 ## 编译原理
 
