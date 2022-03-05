@@ -76,7 +76,7 @@ $ dune exec ./magic.exe
 
 [简单|表驱动编程(Table-Driven Programming)[简单 OCaml 基础]](Paradigms/TableDriven.md)
 
-    [简单|续延(Continuation)[简单 OCaml 基础]](Paradigms/Continuation.md)
+[简单|续延(Continuation)[简单 OCaml 基础]](Paradigms/Continuation.md)
 
     [中等|代数作用(Algebraic Effect)[简单 OCaml 基础，续延]](Paradigms/Algeff.md)
 

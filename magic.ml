@@ -10,4 +10,5 @@ let module T = StateMonad.Test () in
 
 (* Paradigms *)
 let module T = TableDriven.Test () in
+let module T = Continuation.Test () in
 ();
