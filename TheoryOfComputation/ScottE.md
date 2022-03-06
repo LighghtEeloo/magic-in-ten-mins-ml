@@ -85,12 +85,9 @@ module List = struct
     fun t list ->
       fun base -> fun f -> 
         f t (list base f)
-  let map: ('a -> 'b) -> ('a, 'r) list -> ('b, 'r) list =
-    (* fun f list ->
-      list nil (fun x xs -> cons (f x) xs) *)
-    fun fmap list ->
-      fun base -> fun f ->
-        list base (fun t acc -> f (fmap t) acc)
+  let map: ('a -> 'b) -> ('a, 'r) list -> ('b, 'rr) list =
+    fun f list ->
+      list nil (fun x xs -> cons (f x) xs)
   let fold: ('r, 't) list -> 'r -> ('t -> 'r -> 'r) -> 'r =
     fun list base f ->
       list base f
@@ -99,10 +96,11 @@ end
 
 > 注：
 > 
-> `map` 的实现略有魔改。注释中的版本似乎遇到了类型疑难。
+> 这里的翻译大多非常直白，但有一个小坑，那就是 `map` 的类型签名。
 > 
-> 欢迎 Issue / PR 指出问题 (( ◞•̀д•́)◞⚔◟(•̀д•́◟ ))
-
+> `val map: ('a -> 'b) -> ('a, 'r) list -> ('b, 'rr) list`
+> 
+> 注意到这两个 `list` 的 result `'r` 不应当是同一个类型，因为这是两个不同的 `list`。编者此前就写错了，导致一直类型报错，过了好久才意识过来 (⋟﹏⋞)
 
 也就是说，积类型 `A * B * ... * Z` 会被翻译为
 
