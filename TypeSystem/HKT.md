@@ -37,6 +37,7 @@ val map : ('a -> 'b) -> 'a 'container -> 'b 'container
 ```ocaml
 module type Container_S = sig
   type 'a t
+  val map : ('a -> 'b) -> 'a t -> 'b t
 end
 ```
 
@@ -56,15 +57,8 @@ end
 ```ocaml
 module ListC : Container_S = struct
   include List
-  let nil = []
-  let cons = cons
-  let fold = fold_right
-  let rec create = function
-    | [] -> nil
-    | x :: xs -> cons x (create xs)
-  let rec view = function
-    | [] -> []
-    | x :: xs -> x :: view xs
+  let rec create l = l
+  let rec view l = l
   let rec eq a b =
     match a, b with
     | [], [] -> true
@@ -78,11 +72,13 @@ end
 ```ocaml
 module Map : Map_S =
 functor (C: Container_S) -> struct
-  let map f ac = C.fold (fun a -> fun b -> C.cons (f a) b) ac C.nil
+  let map f ac = C.map f ac
 end
 ```
 
 > 这里其实不止是为`list`，而是为任何实现了 `Container_S` 的 `module` 实现了 `map`。
+> 
+> 善于思考的读者可能发现了，这个实现本身并没有做任何有意义的事……确实，这并不是一个足够好的例子——它并没有“非使用 HKT 不可”，从这个角度上该例可能是失败的。但从类型的角度而言，我们确实借助 OCaml 的 module system 在函数签名中 encode 了高阶类型的信息（形如 `'a 'container`，写作 `'a Container.t`），倒也不是毫无可取之处。
 
 ```ocaml
 let module MapList = Map(ListC) in
