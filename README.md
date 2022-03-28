@@ -13,7 +13,9 @@
 
 抽象与组合
 
-希望能在十分钟内教会你一样魔法
+希望能~~在十分钟内~~教会你一样魔法，**并向你展示 OCaml 的好**。
+
+> 虽然 Haskell 表达能力更强就是了 (( ◞•̀д•́)◞⚔◟(•̀д•́◟ ))
 
 QQ群：1070975853 |
 [Telegram Group](https://t.me/joinchat/HZm-VAAFTrIxoxQQ)
