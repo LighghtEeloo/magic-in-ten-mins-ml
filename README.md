@@ -9,13 +9,16 @@
 [Rust 版 - 光量子](https://github.com/PhotonQuantum/magic-in-ten-mins-rs) |
 [C++版 - 图斯卡蓝瑟](https://github.com/tusikalanse/magic-in-ten-mins-cpp) |
 [C#版 - CWKSC](https://github.com/CWKSC/magic-in-ten-mins-csharp) |
-[Lua 版 - Ofey Chan](https://github.com/ofey404/magic-in-ten-mins-lua)
+[Lua 版 - Ofey Chan](https://github.com/ofey404/magic-in-ten-mins-lua) |
+[Python 版 - penguin_wwy](https://github.com/penguin-wwy/magic-in-ten-mins-py)
 
 抽象与组合
 
-希望能~~在十分钟内~~教会你一样魔法，**并向你展示 OCaml 的好**。
+希望能~~在十分钟内~~教会你一样魔法，并尽可能展示 OCaml 的使用姿势。
 
 > 虽然 Haskell 表达能力更强就是了 (( ◞•̀д•́)◞⚔◟(•̀д•́◟ ))
+
+个人水平有限，不保证全部正确性，欢迎大家批判指正。
 
 QQ群：1070975853 |
 [Telegram Group](https://t.me/joinchat/HZm-VAAFTrIxoxQQ)
